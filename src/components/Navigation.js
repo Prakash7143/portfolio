@@ -7,7 +7,7 @@ const Navigation = () =>{
     return (
         <>
             <nav className='navbar'>
-                <h2 className='logo'>Logo</h2>
+                <h2 className='logo'>Brand</h2>
                 <ul onClick={() => setIsMobile(false)} className={isMobile ? "nav-links-mobile" : "nav-links"}>
                     <Link to="/home" className='home'><li>Home</li></Link>
                     <Link to="/about" className='home'><li>About</li></Link>
